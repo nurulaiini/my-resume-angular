@@ -1,1 +1,161 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:  #FFD3D5;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFC4C4;
+    padding: 20px 50px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-photo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    color: #850E35;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #EE6983;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #850E35;
+    text-shadow: 0 0 5px rgba(133, 14, 53, 0.4);
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: url('/src/assets/bgresume.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+.profile-card {
+    background-color: #FFC4C4;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(255, 105, 180, 0.2);
+    transition: transform 0.3s ease;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-card h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.profile-card h3 {
+    color: #777;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.divider {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #EE6983, #850E35);
+    border-radius: 5px;
+    margin: 10px auto 20px;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.4);
+}
+
+.info p {
+    margin: 6px 0;
+    color: #333;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links img {
+    width: 50px;
+    height: 50px;
+    margin: 0 8px;
+    object-fit: contain;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFC4C4;
+    color: #850E35;
+    font-weight: 500;
+}
+
+h1, h2, h3 {
+    color: #850E35;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.hobby-list {
+    list-style: none;
+    padding: 0;
+}
+
+.hobby-list li {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #444;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(255, 105, 180, 0.3);
+}
+
+
+
+
+
